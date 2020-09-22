@@ -2,52 +2,24 @@
 This is Test Project for README.MD file
 ## This is just for practice purpose
 
-Table
+# Deploying Infrastructure with Terraform
 
-|Day |Month |Year |
-|--- |--- |--- |
-|Friday |September |2020 |
+The code mentioned in this document are used in the HashiCorp Certified Terraform Associate 2020 video course.
 
-Links
 
-[Visit Website](https://docs.github.com/en/github "Github")
+# Video-Document Mapper
 
-Images
+| Sr No | Document Link |
+| ------ | ------ |
+| 1 | [Creating first EC2 instance with Terraform][PlDa] |
+| 2 | [Understanding Resource & Providers - Part 2][PlDb] |
+| 3 | [Understanding Desired & Current States][PlDc] |
+| 4 | [Terraform Provider Versioning][PlDd] |
 
-![Github](https://149366088.v2.pressablecdn.com/wp-content/uploads/2018/06/github-logo.jpeg)
 
-Terraform Code for Providers
 
-```Terraform
-Example
-"mainSteps": [
-      {
-         "name": "StopEC2Instances",
-         "action": "aws:executeAwsApi",
-         "inputs": {
-            "Service": "ssm",
-            "Api": "StartAutomationExecution",
-            "DocumentName": "AWS-StopEC2Instance",
-            "TargetParameterName": "InstanceId",
-            "Targets": [
-               {
-                  "Key": "tag:Name",
-                  "Values": [
-                     "{{ Name }}"
-                  ]
-               }
-            ]
-         }
-      }
-   ]
-}
 
-```
-
-Terrform Code for Load Balancers
-
-```Terraform
-
-```
-
-Code here
+   [PlDa]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%201%20-%20Deploying%20Infrastructure%20with%20Terraform/first-ec2.md>
+   [PlDb]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%201%20-%20Deploying%20Infrastructure%20with%20Terraform/do_droplet.tf>
+   [PlDc]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%201%20-%20Deploying%20Infrastructure%20with%20Terraform/desired-current-state.md>
+    [PlDd]: <https://github.com/zealvora/terraform-beginner-to-advanced-resource/blob/master/Section%201%20-%20Deploying%20Infrastructure%20with%20Terraform/provider-versioning.md> 
