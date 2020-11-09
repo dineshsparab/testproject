@@ -2,7 +2,7 @@
 
 ## Tier 3 Application Design 
 
-
+![Tier-3 Architecture](https://github.com/dineshsparab/testproject/blob/master/awstier3.PNG)
 
 ## Design Considerations
 
