@@ -3,7 +3,7 @@
 ## Tier 3 Application Design 
 
 
-![Tier-3 Architecture](file://tier3.png)
+![Tier-3 Architecture](file:./tier3.png)
 
 ## Design Considerations
 
