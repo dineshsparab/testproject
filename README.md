@@ -51,7 +51,7 @@ ___
 
 ## SSL Certificate flow Chart
 
-![SSL Certificate create/import](file://SSL_Cert.png)
+![SSL Certificate create/import](https://github.com/dineshsparab/testproject/blob/master/SSL_Cert.PNG)
 
 ## ## Terraform Code file name - cert-import.tf
 
