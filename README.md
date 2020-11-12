@@ -342,7 +342,7 @@ ___
 
 # VPC
 
-![VPC Tier-3](file://vpc.png)
+![VPC - Tier-3](https://github.com/dineshsparab/testproject/blob/master/vpc.PNG)
 
 ## Creation of Internet Gateway / NAT Gateway
 
@@ -641,7 +641,7 @@ ___
 
 # Web Server Autoscaling
 
-![Web Server AutoScaling](file://webautoscale.png)
+![Web Server AutoScaling](https://github.com/dineshsparab/testproject/blob/master/webautoscale.PNG)
 
 ## Creation WebServer Autoscale Group
 
@@ -772,7 +772,7 @@ ___
 
 # Application Server Autoscaling
 
-![App Server AutoScaling](file://appautoscale.png)
+![App Server AutoScaling](https://github.com/dineshsparab/testproject/blob/master/appautoscale.PNG)
 
 ## Creation AppServer Autoscale Group
 
@@ -898,7 +898,7 @@ ___
 
 # RDS - Relational Database Services - Cluster 
 
-![RDS Cluster](file://rdscluster.png)
+![RDS Cluster](https://github.com/dineshsparab/testproject/blob/master/rdscluster.PNG)
 
 ## Creation RDS Cluster Services
 
